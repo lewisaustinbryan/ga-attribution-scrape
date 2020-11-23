@@ -1,0 +1,44 @@
+#scraping configuration
+ga_attribution_scrape :
+    ga:
+      service_account_path:
+      account_id:
+      property_id:
+      view_id:
+      ecommerce :
+    bigquery:
+      service_account_path:
+      dataset_id :
+      table_id :
+    backdate:
+      backdate:
+      start_date:
+      end_date:
+    request:
+      url:
+      headers:
+        "accept":
+        "accept-encoding":
+        "accept-language":
+        "cache-control":
+        "content-length":
+        "content-type":
+        "cookie":
+        "origin":
+        "referer":
+        "sec-fetch-dest":
+        "sec-fetch-mode":
+        "sec-fetch-site":
+        "sec-fetch-user":
+        "upgrade-insecure-requests":
+        "user-agent":
+        "x-client-data":
+      form_data:
+        "_.bfLookbackWindow":
+        "_r.bfGrouping":
+        "_r.attrSel1":
+        "roicalculator_dataSet_ALL-table.plotKeys":
+        "roicalculator_dataSet_ALL-table.secSegmentId":
+        "id":
+        "ds":
+        "exportUrl":
